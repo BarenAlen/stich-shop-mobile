@@ -1,0 +1,79 @@
+.search {
+	position: relative;
+	height: 56px;
+	border-top: 1px solid $border-color;
+	border-bottom: 1px solid $border-color;
+
+	&__close {
+		position: absolute;
+		height: 55px;
+		top: 0;
+		left: 0;
+		padding: 0 15px;
+		border: 0;
+		box-shadow: none;
+		background: none;
+	}
+
+	&__form {
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+
+		& > button[type="submit"] {
+			height: 55px;
+			padding: 0 18px;
+			// position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+
+	&__input {
+		border: 0;
+		font-size: 17px;
+		height: 54px;
+		width: 100%;
+		vertical-align: middle;
+		padding-left: 10px;
+		// margin-bottom: -1px;
+		// border-bottom: 1px solid $border-color;
+		padding: 0 55px;
+	}
+}
+
+.ui-menu {
+	border: 0 !important;
+}
+
+.ui-menu li.ui-menu-item a {
+	display: inline-block;
+	width: 100%;
+	padding: 12px 55px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #1d1c1c;
+	border: 0;
+
+	&:hover, &:focus, &:active {
+		background-color: $accent-color !important;
+		color: #fff;
+		border: 0;
+		span {
+			color: #fff !important;
+		}
+	}
+}
+
+.ui-menu .ui-menu-item a span {
+	display: block;
+	font-size: 12px;
+	color: #999999;
+	text-decoration: none;
+	margin-top: 7px;
+}
+
+.ui-state-active {
+	background-color: $accent-color !important;
+}

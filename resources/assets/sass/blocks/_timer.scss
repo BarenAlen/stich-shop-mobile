@@ -1,0 +1,40 @@
+.timer {
+    width: 120px;
+    margin: 0 auto;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+
+    table {
+    	width: 86%;
+    	margin: 6px auto;
+    	border: 0;
+	    padding: 0;
+	    padding-left: 4px;
+	    border-spacing: 0;
+
+	    td {
+	    	text-align: center;
+	    	padding: 0;
+	    	line-height: 1.25;
+	    }
+
+	    tr:first-child {
+	    	td {
+	    		vertical-align: bottom;
+	    		font-weight: bold;
+	    		font-size: 16px;
+	    	}
+	    }
+
+	    tr:nth-child(2) {
+	    	td {
+	    		font-size: 11px;
+	    	}
+	    }
+    }
+}
+
+.timer-label {
+	font-size: 11px;
+	margin-bottom: 5px;
+}

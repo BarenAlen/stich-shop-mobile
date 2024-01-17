@@ -1,0 +1,55 @@
+.main-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #fff;
+
+	&__item {
+		display: block;
+		font-size: 14px;
+		text-decoration: none;
+		padding: 10px 10px 10px 30px;
+		border-bottom: 1px solid #ebebec;
+		color: #000;
+
+		&:visited {
+			color: #000;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: $accent-color;
+			color: #fff;
+		}
+	}
+
+	&__user {
+		height: 56px;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+		border-top: 1px solid #dcdcdc;
+		border-bottom: 1px solid #dcdcdc;
+		padding: 0 10px 0 30px;
+
+		a {
+			&:not(:last-child) {
+				margin-right: 10px;
+			}
+		}
+
+		&__toggler {
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+
+	&__feedback {
+		padding: 10px 10px 0 30px;
+	}
+
+	&__new {
+		padding: 18px 10px 0 30px;
+	}
+}

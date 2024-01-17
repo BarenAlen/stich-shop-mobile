@@ -1,0 +1,17 @@
+.cards-list {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0 10px;
+	margin: 20px 0 10px;
+	align-items: flex-start;
+	justify-content: space-between;
+
+	&__item {
+		flex-basis: 0;
+		flex-grow: 0;
+		flex-shrink: 1;
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,34 @@
+$fonts-path: '../fonts/';
+
+@font-face {
+	// AeroBonus Regular
+	font-family: 'SourceSansPro';
+	src:
+	url($fonts-path + 'SourceSansPro-Regular_gdi.otf') format('opentype'),
+	url($fonts-path + 'SourceSansPro-Regular_gdi.eot'),
+	url($fonts-path + 'SourceSansPro-Regular_gdi.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	// SourceSansPro Light 300
+	font-family: 'SourceSansPro';
+	src:
+	url($fonts-path + 'SourceSansPro-Light_gdi.otf') format('opentype'),
+	url($fonts-path + 'SourceSansPro-Light_gdi.eot'),
+	url($fonts-path + 'SourceSansPro-Light_gdi.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	// SourceSansPro Bold 700
+	font-family: 'SourceSansPro';
+	src:
+	url($fonts-path + 'SourceSansPro-Bold_gdi.otf') format('opentype'),
+	url($fonts-path + 'SourceSansPro-Bold_gdi.eot'),
+	url($fonts-path + 'SourceSansPro-Bold_gdi.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}

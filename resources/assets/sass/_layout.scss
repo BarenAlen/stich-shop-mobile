@@ -1,0 +1,66 @@
+@import "variables";
+
+.page {
+    margin: 0 auto;
+    padding: 0;
+
+    &-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    &-main-content {
+        @media only screen and (min-width: 0px) {
+            flex-basis: 100%;
+            flex-grow: 1;
+            flex-shrink: 1;
+            margin: 16px 0 0;
+            order: 0;
+        }
+
+        @media only screen and (min-width: $desktop-breakpoint) {
+            flex-basis: calc(100% - (240px + 16px));
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+    }
+
+    &-aside-content {
+        @media only screen and (min-width: 0px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 100%;
+            flex-grow: 1;
+            flex-shrink: 1;
+            margin: 16px 0 0;
+
+            &:empty {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: $desktop-breakpoint) {
+            flex-basis: 240px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            margin: 16px 0 0 16px;
+        }
+
+        #unicorn {
+            @media only screen and (min-width: 0px) {
+                display: none;
+            }
+
+            @media only screen and (min-width: $desktop-breakpoint) {
+                display: block;
+            }
+        }
+    }
+}
+
+.container {
+    @include container();
+}

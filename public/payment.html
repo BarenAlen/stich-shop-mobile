@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>Стич Профи - производство и продажа тактического снаряжения и охотничьей амуниции</title>
+    <link rel="icon" href=assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+
+<body>
+
+<div class="page  page-white">
+
+    <header class="page-header">
+        <div class="page-header__container">
+            <a href="/"><img src="assets/img/logo.png" width="150" height="27" class="page-header__logo"></img></a>
+            <button id="site-search-open" type="button" class="unstyled"><i class="icon-search"></i></button>
+            <a href="#"><i class="icon-cart"></i></a>
+            <button id="main-nav-open" type="button" class="unstyled"><i class="icon-menu"></i></button>
+        </div>
+
+        <div class="page-header__nav-overlay" id="main-nav">
+            <nav class="page-header__nav">
+                <button class="page-header__nav-close" id="main-nav-close" type="button"></button>  
+                <ul class="main-nav">
+                    <li class="main-nav__user">
+                        <a href="#" class="btn">Вход</a>
+                        <a href="#" class="btn">Регистрация</a>
+                        <button type="button" class="main-nav__user__toggler unstyled"><i class="icon-menu"></i></button>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            О&nbsp;компании
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Оплата
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Доставка
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Прайс
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Оптовикам
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Видео
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Вопросы
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Форум
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Статьи
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Новости
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-nav__item" href="#" target="_self">
+                            Контакты
+                        </a>
+                    </li>
+            
+                    <li class="main-nav__new">
+                        <a class="btn btn-green" href="#" target="_self">
+                            Новинки
+                        </a>
+                    </li>
+            
+                    <li class="main-nav__feedback">
+                        <a class="btn-feedback mail" href="#" target="_self">
+                            Написать нам
+                        </a>
+                        <a class="btn-feedback call" href="#" target="_self">
+                            Заказать обратный звонок
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div id="site-search" class="page-header__search">
+            <div class="search">
+                <button id="site-search-close" type="submit" class="search__close"><i class="icon-arrow-left"></i></button>
+                <form action="#" id="header-search" class="search__form">
+                    <input
+                        type="search"
+                        class="search__input js-search-form-input"
+                        id="search"
+                        placeholder="Поиск по каталогу"
+                    >
+                    <button type="submit" class="unstyled" title="Найти"><i class="icon-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="phones">
+        <div class="phones__item">
+            <div class="phones__item__number">8 804 333-32-10</div>
+            <div>Звонок по РФ бесплатный</div>
+        </div>
+        <div class="phones__item">
+            <div class="phones__item__number">8 (343) 237-23-57</div>
+            <a class="btn-feedback call" href="#" target="_self">
+                <b>Заказать звонок</b>
+            </a>
+        </div>
+    </div>
+
+    <ul class="catalog-menu">
+    	<li><a href="#" class="catalog-menu__item catalog-menu__item--accent"><i class="icon-flag"></i> Узнать статус заказа</a></li>
+        <li>
+            <a href="#" class="btn-back"><i class="icon-arrow-left"></i>Вернуться назад</a>
+        </li>
+    </ul>
+
+    <div class="container">
+        <h2 class="page-title"></i>Оформление заказа</h2>
+
+        <form class="form" action="#" method="post">
+            <fieldset>
+                <legend>Тип плательщика</legend>
+                <div class="input-group-inline">
+                    <div class="input-radio-inline">
+                        <input type="radio" class="input-radio" name="customer_type" id="individual">
+                        <label for="individual">Физическое лицо</label>
+                    </div>
+                    <div class="input-radio-inline">
+                        <input type="radio" class="input-radio" name="customer_type" id="legal_entity">
+                        <label for="legal_entity">Юридическое лицо</label>
+                    </div>
+                </div>
+
+                <div class="input-text">
+                    <input class="form-control" type="text" name="last-name" id="last-name">
+                    <label for="last-name">Фамилия<span>&nbsp;*</span></label>
+                </div>
+
+                <div class="input-text">
+                    <input class="form-control" type="text" name="name" id="name">
+                    <label for="name">Имя<span>&nbsp;*</span></label>
+                </div>
+
+                <div class="input-text">
+                    <input class="form-control" type="text" name="patronymic" id="patronymic">
+                    <label for="patronymic">Отчество<span>&nbsp;*</span></label>
+                </div>
+
+                <div class="input-text">
+                    <input class="form-control" type="tel" name="tel" id="tel">
+                    <label for="tel">Контактный телефон<span>&nbsp;*</span></label>
+                </div>
+
+                <div class="input-text">
+                    <input class="form-control" type="email" name="email" id="email">
+                    <label for="email">Действующий e-mail<span>&nbsp;*</span></label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Местоположение</legend>
+                <div class="input-text">
+                    <input class="form-control" type="text" name="location" id="location">
+                    <label for="location"><i class="icon-search"></i>Введите название города<span>&nbsp;*</span></label>
+                    <p class="input-note">Если вашего города нет в списке, укажите ближайший к вам населенный пункт.</p>
+                </div>
+                <div class="input-text">
+                    <textarea class="form-control" name="address" id="address" rows="4"></textarea>
+                    <label for="location">Полный адрес<span>&nbsp;*</span></label>
+                    <p class="input-note">Укажите полный адрес доставки, включая индекс</p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Служба доставки</legend>
+                <div class="input-item">
+                    <input type="radio" class="input-radio" name="customer_type" id="customer_type">
+                    <label for="customer_type">Деловые линии</label>
+                    <p class="input-note">Оплата транспортных расходов по факту получения</p>
+                </div>
+                <div class="input-item">
+                    <input type="radio" class="input-radio" name="customer_type" id="customer_type">
+                    <label for="customer_type">ЖелдорЭкспедиция</label>
+                    <p class="input-note">Оплата транспортных расходов по факту получения</p>
+                </div>
+                <div class="input-item">
+                    <input type="radio" class="input-radio" name="customer_type" id="customer_type">
+                    <label for="customer_type">ТК Энергия</label>
+                    <p class="input-note">Оплата при получении</p>
+                </div>
+                <div class="input-item">
+                    <input type="radio" class="input-radio" name="customer_type" id="customer_type">
+                    <label for="customer_type">Самовывоз</label>
+                    <p class="input-note">Бесплатно</p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Платежная система</legend>
+                <input type="radio" class="input-radio" name="bill" id="bill">
+                <label for="bill">Счет на оплату</label>
+                <p class="input-note">Платежи банковской картой временно не принимаются</p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Комментарий</legend>
+                <div class="input-text">
+                    <textarea class="form-control" name="comment" id="comment" rows="4"></textarea>
+                    <label for="comment">Оставить комментарий менеджеру<span>&nbsp;*</span></label>
+                </div>
+            </fieldset>
+
+            <div class="input-group-green">
+                <fieldset>
+                    <legend>Нужен звонок?</legend>
+                    <div class="input-item">
+                        <input type="radio" class="input-radio input-radio--green" name="callback" id="callback_yes">
+                        <label for="callback_yes">Да, буду ждать звонка от менеджера</label>
+                    </div>
+                    <div class="input-item">
+                        <input type="radio" class="input-radio input-radio--green" name="callback" id="callback_no">
+                        <label for="callback_no">Нет, я сам оформлю и оплачу заказ</label>
+                    </div>
+                </fieldset>
+            </div>
+
+            <fieldset>
+                <legend>Состав заказа</legend>
+                <div class="basket-item">
+                    <div class="basket-item__pic">
+                        <!-- <img src="assets/img/product.png" alt=""> -->
+                    </div>
+                    <ul class="basket-item__desc">
+                        <li>Артикул: <span>18867020</span></li>
+                        <li>Наименование: <span>Plate Carrier облегченный</span></li>
+                        <li>Свойства: <span>Цвет: Олива</span></li>
+                        <li>Цена: <span>6 000 Р</span></li>
+                        <li>Стоимость: <span>6 000 Р</span></li>
+                        <li>Скидка: <span>0 Р</span></li>
+                        <li>Вес: <span>1 200 г.</span></li>
+                        <li>Кол-во:
+                            <div class="input-counter">
+                                <input class="spinner" name="value">
+                            </div>
+                            <button class="basket-item__delete" type="button">Удалить</button>
+                        </li>
+                    </ul>
+                </div>
+            </fieldset>
+
+            <div class="input-group-green">
+                <fieldset>
+                    <legend>Воспользуйтесь бонусной картой</legend>
+                    <p>Вы можете списать или начислить бонусы со своей покупки на бонусную карту</p>
+                    <div class="input-text">
+                        <input class="form-control" type="text" name="bonus-card" placeholder="Номер вашей бонусной карты">
+                    </div>
+                    <a href="#" class="btn btn-green">Подтвердить</a>
+                </fieldset>
+            </div>
+
+
+            <ul class="total">
+                <li>Итого без учета скидки: <span>6 000 Р</span></li>
+                <li>Общая скидка: <span>0 Р</span></li>
+                <li>Общий вес: <span>1 200 г</span></li>
+                <li class="total__cost">Общая стоимость: <span>6 000 Р</span></li>
+            </ul>
+
+            <div class="form-footer">
+                <button class="btn btn-accent form-submit" type="submit">Оформить заказ</button>
+                <button class="form-reset" type="button">Очистить корзину</button>
+            </div>
+        </form>
+    </div>
+
+	<div class="pay-methods">
+		<img class="pay-methods__item" width="28" height="8" src="assets/img/visa.png" alt="VISA">
+		<img class="pay-methods__item" width="22" height="13" src="assets/img/master-card.png" alt="Master Card">
+		<img class="pay-methods__item" width="22" height="13" src="assets/img/maestro.png" alt="Maestro">
+		<img class="pay-methods__item" width="40" height="10" src="assets/img/webmoney.png" alt="WebMoney">
+		<img class="pay-methods__item" width="49" height="13" src="assets/img/yandex-money.png" alt="Яндекс Деньги">
+		<img class="pay-methods__item" width="54" height="10" src="assets/img/sberbank.png" alt="Сбербанк">
+	</div>
+
+    <footer class="page-footer">
+            <div class="page-footer__container">
+            	<div class="page-footer__contacts">
+            		<div>
+            			<b>8 804 333-32-10</b>
+            			<div class="txt-muted">Бесплатный звонок по РФ</div>
+            		</div>
+            		<button type="button" class="page-footer__btn">Заказать звонок</button>
+            	</div>
+            	<a href="#" class="page-footer__link">Полная версия</a>
+                <ul class="social">
+                	<li><a href="#" class="social__link vk" title="Вконтакте"></a></li>
+                	<li><a href="#" class="social__link fb" title="Facebook"></a></li>
+                	<li><a href="#" class="social__link yt" title="YouTube"></a></li>
+                	<li><a href="#" class="social__link insta" title="Instagram"></a></li>
+                </ul>
+                <hr>
+                <div class="page-footer__copyright">Copyright © 1992  Stich Profi.</div>
+                <div class="txt-muted">Производство и продажа тактического и охотничьего снаряжения, кобур, экипировки для IPSC.</div>
+            </div>
+    </footer>
+</div>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+<script type="text/javascript" src="assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/vendor/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/vendor/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>

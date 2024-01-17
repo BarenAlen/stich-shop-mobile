@@ -1,0 +1,33 @@
+.phones {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: top;
+	background-color: #f4f4f4;
+	border-bottom: 1px solid $border-color;
+
+	&__item {
+		flex-basis: 50%;
+		text-align: center;
+		padding: 8px 0 10px;
+
+		&__number {
+			font-weight: bold;
+			font-size: 16px;
+			color: #000;
+			line-height: 1.6;
+		}
+
+		&:first-child {
+			border-right: 1px solid $border-color;
+		}
+	}
+
+	.btn-feedback {
+		display: inline-block;
+		margin: 0;
+		font-size: 12px;
+		text-align: left;
+		padding-left: 20px;
+	}
+}

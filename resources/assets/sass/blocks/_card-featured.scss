@@ -1,0 +1,65 @@
+.card-featured {
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	width: 190px;
+	margin: 0 5px;
+	font-size: 10px;
+	margin-bottom: 10px;
+	padding: 18px 0;
+	border-bottom: 1px solid #c6c6c6;
+	box-shadow: 0 1px 4px 1px #dedede;
+
+	&__body {
+		text-decoration: none;
+		color: #000;
+
+		&:visited {
+			color: #000;
+		}
+	}
+
+	&__title {
+		font-size: 15px;
+		line-height: 1.4;
+		text-align: center;
+		padding: 0 15px;
+		margin-bottom: 15px;
+	}
+
+	&__pic {
+		padding: 0 20px;
+		background-image: url("../img/product.png");
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: contain;
+		height: 113px;
+		margin-bottom: 10px;
+		text-align: right;
+	}
+
+	&__price {
+		white-space: nowrap;
+		text-align: center;
+		font-size: 20px;
+		color: #b64100;
+		margin-bottom: 4px;
+		font-weight: bold;
+
+		&__old {
+			display: inline-block;
+			vertical-align: middle;
+			font-weight: normal;
+			margin-left: 14px;
+			font-size: 14px;
+			color: #999999;
+			text-decoration: line-through;
+		}
+	}
+
+	&__footer {
+		text-align: center;
+		padding: 0 15px;
+		font-size: 11px;
+	}
+}
